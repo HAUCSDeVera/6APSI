@@ -1,19 +1,27 @@
+body {
+  background: linear-gradient(130deg, #2273c0, #cc5858);
+  overflow: scroll;
+  height: 100vh;
+}
+
 .landing-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background: linear-gradient(135deg, #003366, #336699);
-  color: white;
+  max-width: 400px;
+  margin: 250px auto;
+  background: linear-gradient(130deg, #105a9f, #742626); /* Dark gradient */
+  border-radius: 20px;
+  padding: 2rem;
   font-family: 'Segoe UI', sans-serif;
   text-align: center;
+  color:rgb(255, 255, 255);
 }
 
 .btn {
   margin-top: 20px;
   padding: 12px 24px;
-  background-color: white;
   color: #003366;
   text-decoration: none;
   border-radius: 8px;
@@ -22,5 +30,5 @@
 }
 
 .btn:hover {
-  background-color: #f0f0f0;
+  background-color: #4970c2;
 }

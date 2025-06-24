@@ -1,9 +1,9 @@
-
 .login-container {
   max-width: 400px;
-  margin: 100px auto;
+  margin: 250px auto;
   padding: 2rem;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  background: linear-gradient(130deg, #105a9f, #742626); /* Dark gradient */
+  border-radius: 20px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  color: white;
 }
